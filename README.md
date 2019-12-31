@@ -1,4 +1,4 @@
-# java
+# MyShell project
 <b>MyShell</b> is a project for home automation. It is java/vaadin based web console with old-school command line interface.<br>
 MyShell - NetBeans project, main program.<br>
 MyShell_helper - NetBeans project, helper program. Should be added to autorun list.<br>
