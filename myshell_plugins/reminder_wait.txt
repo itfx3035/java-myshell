@@ -1,0 +1,3 @@
+wait
+forkonrun
+myshell_reminder.jar

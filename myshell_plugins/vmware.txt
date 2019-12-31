@@ -1,0 +1,3 @@
+vmware
+wait
+myshell_vmware.jar

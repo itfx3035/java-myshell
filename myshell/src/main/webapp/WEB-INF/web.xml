@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<web-app id="WebApp_ID" version="3.0" 
+    xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>MyShell</display-name>
+    <context-param>
+        <description>Vaadin production mode</description>
+        <param-name>productionMode</param-name>
+        <param-value>false</param-value>
+    </context-param>
+    <context-param>
+        <description>Heartbeat interval override</description>
+        <param-name>heartbeatInterval</param-name>
+        <param-value>20</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>MyShell</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI</description>
+            <param-name>UI</param-name>
+            <param-value>com.mycompany.mavenproject1.MyUI</param-value>            
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyShell</servlet-name>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping>
+</web-app>

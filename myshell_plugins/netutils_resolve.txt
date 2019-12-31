@@ -1,0 +1,3 @@
+resolve
+forkonrun
+myshell_net.jar

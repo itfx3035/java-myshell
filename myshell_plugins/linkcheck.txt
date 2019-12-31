@@ -1,0 +1,3 @@
+linkcheck
+initonstart, forkoninit, forkonrun
+myshell_linkchecker.jar
